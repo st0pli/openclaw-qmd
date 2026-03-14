@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_IMAGE: alpine/openclaw:latest
-      TARGET_IMAGE: st0p/openclaw/openclaw-qmd:alpine-latest
+      TARGET_IMAGE: st0p/openclaw-qmd:alpine-latest
       CACHE_KEY: alpine-latest
     steps:
       - name: Checkout code
